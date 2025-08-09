@@ -13,9 +13,9 @@ const Header = () => {
       <div className='flex flex-col md:flex-row items-center text-white text-sm font-light'>
         <img className='w-28 ' src={assets.group_profiles} alt="#" />
         <p className='mx-1'>Simply browse through our extensive list of trusted doctors,
-          <br className='hidden sm:block' />Schedule your appointmenthassel-free</p>
+          <br className='hidden sm:block' />Schedule your appointmenthassel-free.</p>
       </div>
-      <a href="" className='flex items-center gap-2 bg-white px-8 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0 hover:scale-105 transition-all  duration-300'>
+      <a href="#speciality" className='flex items-center gap-2 bg-white px-8 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0 hover:scale-105 transition-all  duration-300'>
         Book appointment <img src={assets.arrow_icon} alt="#" />
       </a>
       
