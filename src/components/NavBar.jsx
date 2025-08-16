@@ -48,7 +48,7 @@ const [token,setToken]=useState(true);
         <div className="absolute top-0 right-0 pt-15 text-base font-medium text-gray-600 z-20  ">
          <div className='min-w-44 bg-stone-100 rounded flex flex-col  '>
               <p onClick={()=>navigate('my-profile')} className="px-4 border-1 border-gray-300 py-2 hover:text-black hover:bg-stone-200 cursor-pointer">My Profile</p>
-              <p onClick={()=>navigate('/my-appointments')}className="px-4 py-2 border-1 border-gray-300 hover:text-black  hover:bg-stone-200 cursor-pointer">My Appointments</p>
+              <p onClick={()=>navigate('/my-appointment')}className="px-4 py-2 border-1 border-gray-300 hover:text-black  hover:bg-stone-200 cursor-pointer">My Appointments</p>
               <p onClick={()=>setToken(false)}className="px-4 py-2 hover:text-black border-1 border-gray-300  hover:bg-stone-200 cursor-pointer">Logout</p>
          </div>
         </div>

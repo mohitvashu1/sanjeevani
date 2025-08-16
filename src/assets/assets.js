@@ -296,4 +296,4 @@ export const doctors = [
             line2: 'Circle, Ring Road, London'
         }
     },
-]
+].map(doc => ({ ...doc, available: true }));
