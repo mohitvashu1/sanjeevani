@@ -88,6 +88,7 @@ const Navbar = () => {
              className="w-36" src={assets.logo} alt="" />
             
             <img
+            onClick={() => setShowMenu(false)} to="/"
               className="w-7"
               src={assets.cross_icon}
               alt=""
